@@ -1,0 +1,65 @@
+/* Header Section Styles */
+
+/* Nav Section Styles */
+nav{
+    display: flex;
+    justify-content: space-between;  
+}
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 162px;
+    margin-top: 50px;
+}
+.nav-btn{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin-right: 230px;
+    margin-top: 45px;
+    background-color: white;
+}
+
+/* Header Banner Section Styles */
+.banner{
+    /* width: 1400px; */
+    height: 550px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.banner-img{
+    margin-left: 548px;
+    margin-top: 30px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 350px;
+}
+.line-space{
+    margin-left: 95px;
+}
+.banner-description{
+    width: 670px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 350px;
+}
+.banner-btn{
+    color: white;
+    width: 148px;
+    height: 43px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: black;
+    margin-left: 600px;
+    
+}
+
+/* Why Web Development Section Styles */
