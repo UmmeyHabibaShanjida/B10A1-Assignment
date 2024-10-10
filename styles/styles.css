@@ -26,7 +26,7 @@ nav{
 /* Header Banner Section Styles */
 .banner{
     /* width: 1400px; */
-    height: 550px;
+    height: 640px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     margin-left: 40px;
@@ -45,6 +45,7 @@ nav{
     margin-left: 95px;
 }
 .banner-description{
+    color: #505458;
     width: 670px;
     font-size: 18px;
     font-weight: 400;
@@ -59,7 +60,24 @@ nav{
     border-radius: 6px;
     background-color: black;
     margin-left: 600px;
+    margin-top: 12px;
     
 }
 
 /* Why Web Development Section Styles */
+.main-sec-title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+.main-sec-description{
+    color: #505458;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 495px;
+}
+.line-space-2{
+    margin-left: 60px;
+}
