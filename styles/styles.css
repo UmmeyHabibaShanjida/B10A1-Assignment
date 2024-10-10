@@ -29,27 +29,27 @@ nav{
     height: 640px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 40px;
 }
 .banner-img{
-    margin-left: 548px;
+    margin-left: 578px;
     margin-top: 30px;
 }
 .banner-title{
     font-size: 50px;
     font-weight: 700;
-    margin-left: 350px;
+    margin-left: 375px;
 }
 .line-space{
-    margin-left: 95px;
+    margin-left: 98px;
 }
 .banner-description{
     color: #505458;
     width: 670px;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 350px;
+    margin-left: 355px;
 }
 .banner-btn{
     color: white;
@@ -59,25 +59,62 @@ nav{
     font-weight: 600;
     border-radius: 6px;
     background-color: black;
-    margin-left: 600px;
+    margin-left: 610px;
     margin-top: 12px;
     
 }
-
-/* Why Web Development Section Styles */
+/* Main Section Styles */
+/* How To Become a Web Development Section Styles */
 .main-sec-title{
     font-size: 30px;
     font-weight: 800;
-    margin-left: 550px;
+    margin-left: 455px;
     margin-top: 150px;
+}
+.line-space-2{
+    margin-left: 80px;
 }
 .main-sec-description{
     color: #505458;
     width: 500px;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 495px;
+    margin-left: 505px;
 }
-.line-space-2{
+.line-space-3{
     margin-left: 60px;
+}
+
+/* Second Section */
+/* What Is Web Development Section */
+.web-deb-sec , .web-deb-sec2, .web-deb-sec3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-sec-title2 , .main-sec-title3, .main-sec-title4{
+    color: rgb(56, 59, 65);
+    font-size: 25px;
+    font-weight: 700;
+}
+.main-sec-description2, .main-sec-description3, .main-sec-description4{
+    width: 500px;
+    color: #505458;
+    font-size: 15px;
+    font-weight: 400;
+}
+.main-sec-btn, .main-sec-btn2, .main-sec-btn3{
+    color: rgb(56, 59, 65);
+    width: 115px;
+    height: 33px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-sec-img{
+    margin-right: 40px;
+}
+
+/* Become A Web Development Section Styles */
+.web-deb-sec2 , .web-deb-sec3{
+    margin-top: 100px;
 }
