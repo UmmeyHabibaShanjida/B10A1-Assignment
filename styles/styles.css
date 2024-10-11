@@ -65,7 +65,7 @@ nav{
 }
 /* Main Section Styles */
 /* How To Become a Web Development Section Styles */
-.main-sec-title, .My-inspiration-sec-title{
+.main-sec-title, .My-inspiration-sec-title, .current-target-sec-title{
     font-size: 30px;
     font-weight: 800;
     margin-left: 455px;
@@ -74,7 +74,7 @@ nav{
 .line-space-2{
     margin-left: 80px;
 }
-.main-sec-description, .inspiration-sec-description{
+.main-sec-description, .inspiration-sec-description, .current-target-sec-description{
     color: #505458;
     width: 500px;
     font-size: 18px;
@@ -106,7 +106,7 @@ nav{
     color: rgb(56, 59, 65);
     width: 115px;
     height: 33px;
-    border-radius: 2px;
+    border-radius: 3px;
     font-size: 15px;
     font-weight: 500;
 }
@@ -131,7 +131,58 @@ nav{
     margin-left: 43px;
 }
 .video{
-    margin-left: 400px;
+    margin-left: 380px;
     margin-top: 30px;
     border-radius: 10px;
+}
+
+/* My Current Target Section Styles */
+.current-target-sec-title{
+    margin-left: 550px;
+}
+.current-target-sec-description{
+    width: 750px;
+    margin-left: 355px;
+}
+/* Card Section Styles */
+.card-sec{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* Card1 Styles */
+.card1, .card2, .card3{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 231, 194);
+    border-radius: 10px;
+}
+.card-img1, .card-img2, .card-img3{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.card-title1, .card-title2, .card-title3{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+.card-description1, .card-description2, .card-description3{
+    color: #424649;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.card-anchor1, .card-anchor2, .card-anchor3{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+/* Card2 Styles */
+.card2{
+    background-color: rgb(144, 192, 255);
+}
+/* Card3 Styles */
+.card3{
+    background-color: rgb(255, 247, 131);
 }
