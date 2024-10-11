@@ -186,3 +186,48 @@ nav{
 .card3{
     background-color: rgb(255, 247, 131);
 }
+
+/*  Learning Resources Section Styles */
+.learning-resources-sec-img{
+    width: 1110px;
+    height: 350px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.learning-resources-sec{
+    position: relative;
+    text-align: center;
+}
+.learning-resorces-title{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    position: absolute;
+    top: 150px;
+    right: 650px;
+}
+.learning-resorces-description{
+    color: #eef5ff;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 220px;
+    right: 255px;
+}
+.input-filled, .input-btn{
+    width: 410px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 300px;
+    right: 680px;
+}
+.input-btn{
+    width: 110px;
+    right: 560px;
+    font-size: 18px;
+    font-weight: 400;
+}
