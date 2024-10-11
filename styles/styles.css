@@ -65,7 +65,7 @@ nav{
 }
 /* Main Section Styles */
 /* How To Become a Web Development Section Styles */
-.main-sec-title{
+.main-sec-title, .My-inspiration-sec-title{
     font-size: 30px;
     font-weight: 800;
     margin-left: 455px;
@@ -74,7 +74,7 @@ nav{
 .line-space-2{
     margin-left: 80px;
 }
-.main-sec-description{
+.main-sec-description, .inspiration-sec-description{
     color: #505458;
     width: 500px;
     font-size: 18px;
@@ -91,7 +91,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
-.main-sec-title2 , .main-sec-title3, .main-sec-title4{
+.main-sec-title2, .main-sec-title3, .main-sec-title4{
     color: rgb(56, 59, 65);
     font-size: 25px;
     font-weight: 700;
@@ -117,4 +117,21 @@ nav{
 /* Become A Web Development Section Styles */
 .web-deb-sec2 , .web-deb-sec3{
     margin-top: 100px;
+}
+
+/* My Inspiration Section Styles */
+.My-inspiration-sec-title{
+    margin-left: 650px;
+}
+.inspiration-sec-description{
+    width: 600px;
+    margin-left: 445px;
+}
+.line-space-4{
+    margin-left: 43px;
+}
+.video{
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
 }
