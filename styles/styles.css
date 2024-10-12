@@ -1,5 +1,11 @@
+/* Google Fonts */
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
 /* Header Section Styles */
-
 /* Nav Section Styles */
 nav{
     display: flex;
@@ -39,14 +45,14 @@ nav{
 .banner-title{
     font-size: 50px;
     font-weight: 700;
-    margin-left: 375px;
+    margin-left: 200px;
 }
 .line-space{
-    margin-left: 98px;
+    margin-left: 155px;
 }
 .banner-description{
     color: #505458;
-    width: 670px;
+    width: 790px;
     font-size: 18px;
     font-weight: 400;
     margin-left: 355px;
@@ -65,24 +71,21 @@ nav{
 }
 /* Main Section Styles */
 /* How To Become a Web Development Section Styles */
-.main-sec-title, .My-inspiration-sec-title, .current-target-sec-title{
+.main-sec-title, .My-inspiration-sec-title, .current-target-sec-title, .next-target-sec-title{
     font-size: 30px;
     font-weight: 800;
-    margin-left: 455px;
-    margin-top: 150px;
+    margin-left: 400px;
+    margin-top: 120px;
 }
 .line-space-2{
-    margin-left: 80px;
+    margin-left: 105px;
 }
-.main-sec-description, .inspiration-sec-description, .current-target-sec-description{
+.main-sec-description, .inspiration-sec-description, .current-target-sec-description, .next-target-sec-description{
     color: #505458;
-    width: 500px;
+    width: 600px;
     font-size: 18px;
     font-weight: 400;
     margin-left: 505px;
-}
-.line-space-3{
-    margin-left: 60px;
 }
 
 /* Second Section */
@@ -121,28 +124,25 @@ nav{
 
 /* My Inspiration Section Styles */
 .My-inspiration-sec-title{
-    margin-left: 650px;
+    margin-left: 600px;
 }
 .inspiration-sec-description{
-    width: 600px;
+    width: 640px;
     margin-left: 445px;
 }
-.line-space-4{
-    margin-left: 43px;
-}
 .video{
-    margin-left: 380px;
+    margin-left: 200px;
     margin-top: 30px;
     border-radius: 10px;
 }
 
 /* My Current Target Section Styles */
 .current-target-sec-title{
-    margin-left: 550px;
+    margin-left: 530px;
 }
 .current-target-sec-description{
-    width: 750px;
-    margin-left: 355px;
+    width: 700px;
+    margin-left: 455px;
 }
 /* Card Section Styles */
 .card-sec{
@@ -153,7 +153,7 @@ nav{
 /* Card1 Styles */
 .card1, .card2, .card3{
     width: 350px;
-    height: 300px;
+    height: 330px;
     background-color: rgb(255, 231, 194);
     border-radius: 10px;
 }
@@ -187,10 +187,38 @@ nav{
     background-color: rgb(255, 247, 131);
 }
 
+/* My Next Target Section Styles */
+.next-target-sec-title{
+    margin-left: 610px;
+}
+.next-target-reactjs, .next-target-nodejs, .next-target-mongodb{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 300px;
+    margin-top: 45px;
+}
+.react-img, .node-img, .mongo-img{
+    width: 130px;
+    height: 130px;
+}
+.reactjs-title, .nodejs-title, .mongodb-title{
+    font-size: 23px;
+    font-weight: 600;
+}
+.reactjs-description, .nodejs-description, .mongodb-description{
+    width: 720px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.react-link, .node-link, .mongo-link{
+    color: rgb(26, 25, 25);
+}
+
 /*  Learning Resources Section Styles */
 .learning-resources-sec-img{
     width: 1110px;
-    height: 350px;
+    height: 400px;
     margin-left: 5px;
     border-radius: 10px;
     margin-top: 80px;
@@ -205,15 +233,16 @@ nav{
     font-weight: 700;
     position: absolute;
     top: 150px;
-    right: 650px;
+    right: 580px;
 }
 .learning-resorces-description{
     color: #eef5ff;
+    width: 680px;
     font-size: 16px;
     font-weight: 400;
     position: absolute;
     top: 220px;
-    right: 255px;
+    right: 423px;
 }
 .input-filled, .input-btn{
     width: 410px;
@@ -223,11 +252,30 @@ nav{
     border-radius: 8px;
     position: absolute;
     top: 300px;
-    right: 680px;
+    right: 640px;
 }
 .input-btn{
     width: 110px;
-    right: 560px;
+    right: 515px;
     font-size: 18px;
     font-weight: 400;
+}
+
+/* Footer Section Styles */
+/* Commitment Section Styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 40px;
+}
+.footer-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer-icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
